@@ -1,0 +1,13 @@
+.course {
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    &__card {
+        &__skill {
+            font-weight: 700;
+        }
+    }
+}
