@@ -1,0 +1,12 @@
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px 0 50px 20px;
+    border-top: 1px solid #ccc;
+
+    p {
+        font-size: 12px;
+    }
+}
