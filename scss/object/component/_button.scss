@@ -1,0 +1,15 @@
+.contact__button {
+    max-width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 15px 90px;
+    background-color: #e66b63;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #c14b3e;
+    }
+}

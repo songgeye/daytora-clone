@@ -1,0 +1,15 @@
+.about {
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+
+        p {
+            font-weight: 700;
+        }
+    }
+
+    &__content {
+        width: 50%;
+    }
+}
